@@ -22,5 +22,5 @@ sudo docker compose --env-file ../config/.env up -d <br />
 <b><h4>CODE</h4></b>
 golang : https://github.com/parinyapt/StreamySnap_AuthService (API Auth) <br />
 docker images: https://hub.docker.com/r/pobkun/streamysnap-authservice <br />
-nextjs : ... (Frontend) <br />
+nextjs : https://github.com/PobKun/StreamySnap_FrontendService (Frontend) <br />
 docker images: https://hub.docker.com/r/pobkun/streamysnap-nextservice <br />
