@@ -15,7 +15,7 @@ services:
       DATABASE_MYSQL_PASSWORD: ${DB_PASSWORD}
       DATABASE_TABLE_PREFIX: streamysnap_authservice_
       APP_NAME: StreamySnap Auth Service Production
-      APP_BASE_URL: http://auth.prinpt.com
+      APP_BASE_URL: https://services.streamysnap.com
       JWT_SIGN_KEY_AUTHSESSION: production_AUTHSESSION123456789
       JWT_SIGN_KEY_TEMPORARYTOKEN: production_TEMPORARYTOKEN123456789
       JWT_SIGN_KEY_ACCESSTOKEN: production_ACCESSTOKEN123456789
