@@ -14,6 +14,11 @@ cd auth <br />
 sudo docker compose --env-file ../config/.env up -d <br />
 <hr />
 
+<b><h1>FRONTEND SERVICE</h1></b>
+cd frontend <br />
+sudo docker compose --env-file ../config/.env up -d <br />
+<hr />
+
 <b><h4>CODE</h4></b>
 golang : https://github.com/parinyapt/StreamySnap_AuthService (API Auth) <br />
 docker images: https://hub.docker.com/r/pobkun/streamysnap-authservice <br />
