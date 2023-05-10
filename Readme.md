@@ -13,3 +13,7 @@ sudo docker compose --env-file ../config/.env up -d <br />
 cd auth <br />
 sudo docker compose --env-file ../config/.env up -d <br />
 <hr />
+
+<b><h4>CODE</h4></b>
+golang : https://github.com/parinyapt/StreamySnap_AuthService (API Auth) <br />
+nextjs : ... (Frontend) <br />
