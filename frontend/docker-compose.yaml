@@ -1,0 +1,14 @@
+version: "3"
+services:
+  frontend:
+    container_name: streamysnap_authservice_frontend
+    platform: linux/amd64
+    image: pobkun/streamysnap-nextservice:v1.2
+    ports:
+      - "3000:3000"
+    networks:
+      - default
+networks:
+  default:
+    name: ${NETWORK_NAME}
+    external: true
