@@ -1,9 +1,8 @@
 version: "3"
-
 services:
   backend-api:
-    container_name: Streamysnap_Authservice_API
-    image: parinyapt/streamysnap-authservice:v1
+    container_name: streamysnap_authservice_backend
+    image: parinyapt/streamysnap-authservice:v2.5
     ports:
       - "${API_PORT}:80"
     networks:
